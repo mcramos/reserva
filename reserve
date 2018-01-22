@@ -1,0 +1,6 @@
+#!/bin/bash
+PATH=/home/marcos/cron-task:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+cd /home/marcos/desenvolvimento/angular4/meu-primeiro-app
+ng e2e
+
