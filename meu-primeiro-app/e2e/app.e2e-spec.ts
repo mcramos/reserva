@@ -6,31 +6,31 @@ import { chown } from 'fs';
 
 describe('meu-primeiro-app App', () => {
   let page: AppPage;
-  const data1 = '16/01/2018';
+  const data1 = '23/01/2018';
 
   beforeEach(() => {
     page = new AppPage();
   });
 
   it('reserva quadra horario 1', () =>{
-    const cpf = '01999455940';
-    const nomeSolicitante = 'marcos ramos';
-    const tel = '4432465688';
-    const cel = '44999711744';
-    const emailSol  = 'mcramos.info@gmail.com';
-    const nomeEspaco = 'ALVORADA';
+    const cpf = '';
+    const nomeSolicitante = '';
+    const tel = '';
+    const cel = '';
+    const emailSol  = '';
+    const nomeEspaco = '';
     const horario = 1;
     reservaQuadra(page, nomeEspaco, data1, cpf, tel, cel, emailSol, nomeSolicitante, horario);
   });
 
 
   it('reserva quadra horario 2', () => {
-    const cpf = '72571926934';
-    const nomeSolicitante = 'adalberto cordeiro';
-    const tel = '4430285416';
-    const cel = '44999375416';
-    const emailSol  = 'acs-69@hotmail.com';
-    const nomeEspaco = 'ALVORADA';
+    const cpf = '';
+    const nomeSolicitante = '';
+    const tel = '';
+    const cel = '';
+    const emailSol  = '';
+    const nomeEspaco = '';
     const horario = 2;
     reservaQuadra(page, nomeEspaco, data1, cpf, tel, cel, emailSol, nomeSolicitante, horario);
   });
